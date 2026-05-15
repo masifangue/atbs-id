@@ -1,8 +1,8 @@
 site_name: Boring Stuff Python
 site_description: Terjemahan & adaptasi Bahasa Indonesia dari "Automate the Boring Stuff with Python" karya Al Sweigart. Belajar Python dari nol.
-site_author: Komunitas Penerjemah Indonesia
+site_author: Yazid Akbar
 copyright: |
-  &copy; Komunitas Penerjemah Indonesia · Berdasarkan karya Al Sweigart ·
+  &copy; 2026 Yazid Akbar · Berdasarkan karya Al Sweigart ·
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
 
 theme:
@@ -88,8 +88,11 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/
+      link: https://github.com/masifangue/atbs-id
       name: Repo project di GitHub
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/masifangue
+      name: Yazid Akbar (maintainer)
   generator: false
 
 nav:

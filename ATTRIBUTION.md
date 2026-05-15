@@ -41,6 +41,10 @@ Jika Anda merasa terbantu dengan buku ini:
 
 ## Kontak
 
-Untuk pertanyaan terkait terjemahan ini: _akan diumumkan_
+Untuk pertanyaan, saran, atau kontribusi terkait terjemahan ini:
+
+- **Maintainer/Penerjemah:** Yazid Akbar
+- **GitHub:** [@masifangue](https://github.com/masifangue)
+- **Issues:** [github.com/masifangue/atbs-id/issues](https://github.com/masifangue/atbs-id/issues)
 
 Untuk pertanyaan terkait karya asli: hubungi Al Sweigart melalui [inventwithpython.com](https://inventwithpython.com/).

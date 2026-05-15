@@ -35,6 +35,12 @@ mkdocs serve
 
 Buka `http://localhost:8000`.
 
+## Maintainer
+
+**Yazid Akbar** ([@masifangue](https://github.com/masifangue)) — inisiator project, penerjemah utama.
+
+Project ini terbuka untuk siapa saja yang mau bantu — laporkan typo, sarankan perbaikan, translate bab yang belum selesai. Lihat [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Struktur Buku
 
 - **Bagian 1 — Dasar-Dasar Python**: Bab 1-6, fondasi bahasa Python

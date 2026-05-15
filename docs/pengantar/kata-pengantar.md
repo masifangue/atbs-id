@@ -2,21 +2,37 @@
 
 ## Dari Penerjemah
 
-Saya pertama kali ketemu Python karena alasan yang sangat tidak romantis: ada kerjaan repetitif yang bikin saya kesal. Setiap minggu harus salin data dari 30+ file Excel ke satu file rangkuman. Manual. Klik-klik-klik selama 2 jam, dengan resiko salah ketik di tiap langkah.
+Saya bukan programmer profesional. Saya pemula yang sedang serius belajar — sebentar lagi masuk bootcamp Generative AI Dicoding di pertengahan 2026, dan Python adalah pondasi yang saya pelajari pelan-pelan setiap hari.
 
-Suatu hari saya iseng googling. Sampai di artikel yang judulnya kira-kira "automate Excel with Python". Hari itu juga saya download Python, ketik kode pertama, dan dalam 4 jam — script-nya jadi. 30 file selesai dirangkum dalam 8 detik.
+Saat saya googling sumber belajar Python yang bisa benar-benar dimengerti dari nol, saya lebih sering nemu dua jenis: artikel pendek yang bagus tapi loncat-loncat, atau buku panjang berbahasa Inggris yang sebenarnya fenomenal — tapi ya, bahasa Inggris.
 
-Sejak saat itu hidup saya berubah. Bukan karena saya tiba-tiba jadi programmer hebat (tidak), tapi karena saya nggak mau lagi mengerjakan sesuatu yang seharusnya komputer aja yang kerjain.
+Salah satu yang paling sering muncul di rekomendasi adalah **"Automate the Boring Stuff with Python"** karya Al Sweigart. Saya coba baca, dan saya langsung paham kenapa buku ini melegenda. Dia tidak ngajarin "apa itu paradigma pemrograman". Dia ngajarin: **"mari ketik kode pertama, lihat hasilnya, lalu kita ngobrol."**
+
+Itu pendekatan yang manusiawi. Itu pendekatan yang seharusnya jadi standar untuk pemula.
+
+Yang membuat saya kepikiran adalah: **berapa banyak orang Indonesia yang bisa belajar Python lebih cepat kalau buku sebagus ini ada dalam Bahasa Indonesia?** Pekerja kantoran yang bergulat dengan Excel, mahasiswa non-IT yang penasaran, ibu rumah tangga yang mau coba hal baru, anak-anak SMA yang baru mulai. Bahasa Inggris bukan halangan teknis bagi mereka — tapi membaca konsep baru dalam bahasa ibu **selalu** lebih cepat dicerna.
+
+Karena Al Sweigart memilih melepas buku ini dengan lisensi terbuka (Creative Commons), siapa saja boleh menerjemahkan. Saya pikir, kalau bukan saya, mungkin nunggu lama. Jadi saya mulai. Saya tahu saya bukan ahli — tapi saya pikir hasil yang **ada dan bisa diperbaiki** lebih bermanfaat daripada hasil sempurna yang **tidak pernah dibuat**.
+
+Project ini terbuka untuk siapa saja. Kalau kamu nemu typo, kalimat janggal, atau merasa ada penjelasan yang bisa lebih baik — buka issue atau pull request di [GitHub](https://github.com/masifangue/atbs-id). Setiap kontribusi membuat buku ini lebih baik untuk pembaca berikutnya.
+
+— **Yazid Akbar** ([@masifangue](https://github.com/masifangue))
+
+## Tentang Project Ini
+
+Buku ini adalah terjemahan dan adaptasi dari **"Automate the Boring Stuff with Python"** karya **Al Sweigart** ke Bahasa Indonesia.
+
+Project ini diinisiasi oleh Yazid Akbar sebagai usaha membuat sumber belajar Python berkualitas tinggi yang diakses gratis dalam Bahasa Indonesia.
 
 ## Kenapa Buku Ini?
 
-Saat saya belajar dulu, sumber dalam Bahasa Indonesia masih sedikit. Yang ada kebanyakan terjemahan teknis yang justru lebih membingungkan daripada baca aslinya. Atau tutorial pendek yang bagus tapi tidak runtut.
+Sumber belajar Python dalam Bahasa Indonesia masih sedikit. Yang ada kebanyakan terjemahan teknis yang justru lebih membingungkan daripada baca aslinya. Atau tutorial pendek yang bagus tapi tidak runtut.
 
-**"Automate the Boring Stuff with Python"** karya Al Sweigart adalah buku Python paling enak dibaca yang pernah saya temui. Bukan karena teorinya paling lengkap (bukan), tapi karena Al Sweigart mengajar dengan satu prinsip yang jarang dipakai: **mulai dari masalah yang relatable**, bukan dari teori.
+**"Automate the Boring Stuff with Python"** karya Al Sweigart adalah salah satu buku Python paling enak dibaca yang pernah ada. Bukan karena teorinya paling lengkap (bukan), tapi karena Al Sweigart mengajar dengan satu prinsip yang jarang dipakai: **mulai dari masalah yang relatable**, bukan dari teori.
 
 Bab pertama tidak diawali dengan "Apa itu paradigma pemrograman". Diawali dengan "Mari kita ketik kode pertama dan lihat hasilnya". Itu cara mengajar yang manusiawi.
 
-Saya selalu berpikir: kalau saja buku ini ada dalam Bahasa Indonesia, pasti banyak teman saya — yang bukan dari latar belakang teknis — bisa lebih cepat masuk ke dunia Python.
+Kalau saja buku ini ada dalam Bahasa Indonesia, akan lebih banyak teman-teman kita — yang bukan dari latar belakang teknis — bisa lebih cepat masuk ke dunia Python. Itulah motivasi project ini.
 
 ## Kenapa Bahasa Indonesia?
 
