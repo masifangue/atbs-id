@@ -1,0 +1,121 @@
+site_name: Boring Stuff Python
+site_description: Terjemahan & adaptasi Bahasa Indonesia dari "Automate the Boring Stuff with Python" karya Al Sweigart. Belajar Python dari nol.
+site_author: Komunitas Penerjemah Indonesia
+copyright: |
+  &copy; Komunitas Penerjemah Indonesia · Berdasarkan karya Al Sweigart ·
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
+
+theme:
+  name: material
+  language: id
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Mode terang
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Mode gelap
+  font:
+    text: Geist
+    code: Geist Mono
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mermaid-init.js
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.keys
+
+plugins:
+  - search:
+      lang: id
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/
+      name: Repo project di GitHub
+  generator: false
+
+nav:
+  - Beranda: index.md
+  - Pengantar:
+    - Kata Pengantar: pengantar/kata-pengantar.md
+    - Pendahuluan: pengantar/pendahuluan.md
+  - Bagian 1 — Dasar Python:
+    - "Bab 1: Dasar-Dasar Python": bagian-1-dasar-python/bab-01-dasar-dasar-python.md
+    - "Bab 2: Kontrol Alur Program": bagian-1-dasar-python/bab-02-kontrol-alur.md
+    - "Bab 3: Fungsi": bagian-1-dasar-python/bab-03-fungsi.md
+    - "Bab 4: List": bagian-1-dasar-python/bab-04-list.md
+    - "Bab 5: Dictionary & Struktur Data": bagian-1-dasar-python/bab-05-dictionary.md
+    - "Bab 6: Manipulasi String": bagian-1-dasar-python/bab-06-string.md
+  - Bagian 2 — Otomasi:
+    - "Bab 7: Regular Expression": bagian-2-otomasi/bab-07-regex.md
+    - "Bab 8: Validasi Input": bagian-2-otomasi/bab-08-validasi-input.md
+    - "Bab 9: Membaca & Menulis File": bagian-2-otomasi/bab-09-file-io.md
+    - "Bab 10: Mengorganisir File": bagian-2-otomasi/bab-10-organisir-file.md
+    - "Bab 11: Debugging": bagian-2-otomasi/bab-11-debugging.md
+    - "Bab 12: Web Scraping": bagian-2-otomasi/bab-12-web-scraping.md
+    - "Bab 13: Otomasi Excel": bagian-2-otomasi/bab-13-excel.md
+    - "Bab 14: Google Sheets": bagian-2-otomasi/bab-14-google-sheets.md
+    - "Bab 15: PDF & Word": bagian-2-otomasi/bab-15-pdf-word.md
+    - "Bab 16: CSV & JSON": bagian-2-otomasi/bab-16-csv-json.md
+    - "Bab 17: Penjadwalan & Waktu": bagian-2-otomasi/bab-17-waktu-jadwal.md
+    - "Bab 18: Email & SMS": bagian-2-otomasi/bab-18-email-sms.md
+    - "Bab 19: Manipulasi Gambar": bagian-2-otomasi/bab-19-gambar.md
+    - "Bab 20: GUI Automation": bagian-2-otomasi/bab-20-gui-automation.md
