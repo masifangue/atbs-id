@@ -5,52 +5,102 @@ hide:
 ---
 
 <div class="hero">
-  <div class="hero-content">
-    <span class="hero-eyebrow">
-      <span class="dot"></span>
-      Edisi Bahasa Indonesia · Open Source
-    </span>
-    <h1>
-      Otomasi pekerjaan membosankan dengan <span class="gradient">Python</span>
-    </h1>
-    <p class="hero-subtitle">
-      Belajar Python dari nol, langsung kepakai. Bukan teori berlapis — tapi cara mengubah pekerjaan harianmu yang membosankan menjadi script 10 baris yang selesai dalam hitungan detik.
-    </p>
-    <div class="hero-cta">
-      <a href="bagian-1-dasar-python/bab-01-dasar-dasar-python/" class="btn btn-primary">
-        Mulai Bab 1 <span class="btn-arrow">→</span>
-      </a>
-      <a href="pengantar/pendahuluan/" class="btn btn-ghost">
-        Baca Pendahuluan
-      </a>
+  <div class="hero-grid">
+    <div class="hero-left">
+      <span class="hero-eyebrow">
+        <span class="dot"></span>
+        <span class="mono">python 3.12 ·</span> CC BY-NC-SA
+      </span>
+      <h1>
+        Otomasi pekerjaan<br>
+        membosankan dengan<br>
+        <span class="gradient">Python</span><span class="caret">_</span>
+      </h1>
+      <p class="hero-subtitle">
+        Belajar Python dari nol, langsung kepakai. Bukan teori berlapis — tapi cara mengubah pekerjaan harianmu yang membosankan jadi script 10 baris yang selesai dalam hitungan detik.
+      </p>
+      <div class="hero-cta">
+        <a href="bagian-1-dasar-python/bab-01-dasar-dasar-python/" class="btn btn-primary">
+          <span class="mono">›</span> Mulai Bab 1 <span class="btn-arrow">→</span>
+        </a>
+        <a href="pengantar/pendahuluan/" class="btn btn-ghost">
+          Baca Pendahuluan
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="ide">
+        <div class="ide-tabs">
+          <span class="ide-tab active">
+            <span class="ide-tab-dot"></span> rename_files.py
+          </span>
+          <span class="ide-tab">organizer.py</span>
+          <span class="ide-tab-spacer"></span>
+          <span class="ide-action ide-action--run">▶ run</span>
+        </div>
+        <div class="ide-body">
+          <div class="ide-gutter">
+            <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+          </div>
+          <div class="ide-code">
+<span class="py-comment"># automate the boring stuff</span>
+<span class="py-keyword">import</span> <span class="py-module">os</span>, <span class="py-module">re</span>
+
+<span class="py-keyword">for</span> <span class="py-var">file</span> <span class="py-keyword">in</span> <span class="py-builtin">os</span>.<span class="py-fn">listdir</span>(<span class="py-str">'./laporan'</span>):
+    <span class="py-keyword">if</span> <span class="py-var">file</span>.<span class="py-fn">endswith</span>(<span class="py-str">'.xlsx'</span>):
+        <span class="py-var">new</span> = <span class="py-str">f"</span><span class="py-fstring">&#123;<span class="py-var">datetime</span>.<span class="py-fn">now</span>():%Y%m%d&#125;</span><span class="py-str">_&#123;<span class="py-var">file</span>&#125;"</span>
+        <span class="py-builtin">os</span>.<span class="py-fn">rename</span>(<span class="py-var">file</span>, <span class="py-var">new</span>)
+        <span class="py-fn">print</span>(<span class="py-str">f"✓ &#123;<span class="py-var">new</span>&#125;"</span>)
+
+<span class="py-fn">print</span>(<span class="py-str">'selesai dalam 0.3 detik 🚀'</span>)<span class="py-caret">|</span>
+          </div>
+        </div>
+        <div class="ide-output">
+          <div class="ide-output-head">
+            <span><span class="o-tag">stdout</span> python3 rename_files.py</span>
+            <span class="o-time">0.3s</span>
+          </div>
+          <div class="ide-output-body">
+<span class="o-ok">✓</span> 20260315_laporan-januari.xlsx
+<span class="o-ok">✓</span> 20260315_laporan-februari.xlsx
+<span class="o-ok">✓</span> 20260315_laporan-maret.xlsx
+<span class="o-info">selesai dalam 0.3 detik 🚀</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="page-section">
-  <div class="stat-strip">
-    <div class="stat-item">
-      <span class="stat-number">20+</span>
-      <span class="stat-label">Bab Lengkap</span>
+  <div class="server-strip">
+    <div class="server-item">
+      <span class="server-label"><span class="server-dot"></span> chapters</span>
+      <span class="server-value">20+</span>
+      <span class="server-meta">bab lengkap</span>
     </div>
-    <div class="stat-item">
-      <span class="stat-number">100%</span>
-      <span class="stat-label">Bahasa Indonesia</span>
+    <div class="server-item">
+      <span class="server-label"><span class="server-dot"></span> locale</span>
+      <span class="server-value">id_ID</span>
+      <span class="server-meta">100% indonesia</span>
     </div>
-    <div class="stat-item">
-      <span class="stat-number">Rp 0</span>
-      <span class="stat-label">Selamanya Gratis</span>
+    <div class="server-item">
+      <span class="server-label"><span class="server-dot"></span> price</span>
+      <span class="server-value">Rp 0</span>
+      <span class="server-meta">selamanya gratis</span>
     </div>
-    <div class="stat-item">
-      <span class="stat-number">CC</span>
-      <span class="stat-label">Open Source</span>
+    <div class="server-item">
+      <span class="server-label"><span class="server-dot"></span> license</span>
+      <span class="server-value">CC</span>
+      <span class="server-meta">open source</span>
     </div>
   </div>
 </div>
 
 <div class="page-section">
   <div class="section-header">
-    <span class="section-eyebrow">Untuk Siapa</span>
+    <span class="section-eyebrow"># untuk siapa</span>
     <h2 class="section-title">Buku ini ditulis untuk yang belum pernah ngoding</h2>
     <p class="section-subtitle">Tidak ada syarat. Setiap istilah teknis dijelaskan saat pertama kali muncul. Tidak ada asumsi "semua orang sudah tahu ini".</p>
   </div>
@@ -89,7 +139,7 @@ hide:
 
 <div class="page-section">
   <div class="section-header">
-    <span class="section-eyebrow">Yang Akan Kamu Bisa</span>
+    <span class="section-eyebrow"># def what_youll_learn():</span>
     <h2 class="section-title">Bukan teori, keterampilan nyata</h2>
     <p class="section-subtitle">Setelah selesai mempraktikkan buku ini, kamu bisa langsung pakai di pekerjaan harianmu.</p>
   </div>
@@ -130,7 +180,7 @@ hide:
 
 <div class="page-section">
   <div class="section-header">
-    <span class="section-eyebrow">Mulai Belajar</span>
+    <span class="section-eyebrow"># python main.py</span>
     <h2 class="section-title">Tiga jalan untuk memulai</h2>
     <p class="section-subtitle">Pilih sesuai gaya belajarmu. Yang paling pemula bisa langsung loncat ke Bab 1.</p>
   </div>
